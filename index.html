@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="http://scuk-impactplatform-staging.herokuapp.com/donations/2HpFY9NWcMpRHwyrQP" method="post">
+      <div>
+        <label>Mobile number</label>
+        <input type="text" name="donation[mobile_number]">
+      </div>
+      <div>
+        <label>Transaction id</label>
+        <input type="text" name="donation[scuk_transaction_id]">
+      </div>
+      <div>
+        <label>Amount</label>
+        <input type="number" name="donation[amount]" step=".01">
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
